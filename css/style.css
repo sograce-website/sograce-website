@@ -71,14 +71,6 @@ h1{font-size:68px;line-height:1.02;margin:0;font-weight:950;letter-spacing:-.045
 @media(max-width:900px){.featured-products,.product-detail-grid,.product-gallery{grid-template-columns:1fr}}
 
 
-/* Product category image fix */
-.category-thumb{height:160px;border-radius:22px;background:rgba(255,255,255,.04);display:flex;align-items:center;justify-content:center;margin-bottom:18px;overflow:hidden}
-.category-thumb img{width:100%;height:150px;object-fit:contain;padding:8px}
-.product-mini img{width:100%;height:130px;object-fit:contain;border-radius:16px;background:rgba(255,255,255,.035);padding:8px;margin-bottom:10px}
-.product-mini b{display:block;margin-top:6px;font-size:18px;color:#fff}
-.product-mini span{display:block;color:#a8b3c5;font-size:14px;line-height:1.45;margin-top:4px}
-.product-mini-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-.subcategory{margin-top:20px;padding:22px;border-radius:28px;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.09)}
-.subcategory h3{margin-top:0}
-@media(max-width:1000px){.product-mini-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:640px){.product-mini-grid{grid-template-columns:1fr}}
+/* Product home image display fix */
+.product-img img{width:100%;height:190px;object-fit:contain;border-radius:18px;background:rgba(255,255,255,.03);padding:8px}
+.product.glass .product-img{min-height:190px;display:flex;align-items:center;justify-content:center}
