@@ -1,0 +1,5 @@
+# SOGRACE clean URL redirects
+/contact    /contact.html    200
+/about      /about.html      200
+/products   /products.html   200
+/faq        /faq.html        200
