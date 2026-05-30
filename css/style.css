@@ -133,3 +133,188 @@ h1{font-size:68px;line-height:1.02;margin:0;font-weight:950;letter-spacing:-.045
 .pro-contact-line a{color:#93c5fd;text-decoration:underline}
 .pro-cta{padding:48px;border-radius:38px;background:linear-gradient(135deg,rgba(23,105,255,.22),rgba(0,0,0,.35));border:1px solid rgba(96,165,250,.2);text-align:center}
 @media(max-width:1000px){.product-mini-grid,.pro-hero,.pro-grid-3,.pro-grid-4{grid-template-columns:1fr}}
+
+
+/* =========================================================
+   SOGRACE Mobile Responsive Fix v2
+   Improves header, navigation, product grids, galleries,
+   forms and typography on mobile devices.
+   ========================================================= */
+
+@media (max-width: 1100px){
+  .container{max-width:100%;padding-left:18px;padding-right:18px}
+  .nav{gap:14px}
+  .menu{gap:18px}
+  .actions{gap:8px}
+  .btn{padding:11px 16px;border-radius:14px}
+  h1{font-size:58px}
+}
+
+@media (max-width: 900px){
+  body{overflow-x:hidden}
+  .container{padding-left:16px;padding-right:16px}
+
+  /* Mobile header */
+  .header{position:sticky;top:0}
+  .nav{
+    height:auto;
+    min-height:70px;
+    padding:12px 0;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:10px;
+  }
+  .brand{gap:10px;min-width:0;flex:1 1 auto}
+  .brand img{width:34px;height:34px}
+  .logo{font-size:21px;letter-spacing:.16em;white-space:nowrap}
+  .logo-sub{font-size:9px;letter-spacing:.18em;white-space:nowrap}
+
+  /* Keep menu visible as a compact second row instead of hiding it */
+  .menu{
+    order:3;
+    display:flex !important;
+    width:100%;
+    overflow-x:auto;
+    gap:18px;
+    padding:8px 0 2px;
+    font-size:13px;
+    scrollbar-width:none;
+    -webkit-overflow-scrolling:touch;
+  }
+  .menu::-webkit-scrollbar{display:none}
+  .menu a{white-space:nowrap}
+
+  .actions{
+    flex:0 0 auto;
+    display:flex;
+    align-items:center;
+    gap:6px;
+  }
+  .actions .btn.ghost{display:none !important}
+  .actions .btn.primary{
+    display:inline-flex;
+    padding:9px 12px;
+    font-size:12px;
+    border-radius:12px;
+    white-space:nowrap;
+  }
+  .lang-switch{gap:5px}
+  .lang-switch a{font-size:11px;padding:7px 8px;border-radius:9px}
+
+  /* Typography */
+  h1{font-size:42px;line-height:1.08;letter-spacing:-.035em}
+  h2{font-size:30px;line-height:1.15}
+  .lead{font-size:16px;line-height:1.65;margin-top:18px}
+  .kicker{font-size:12px;letter-spacing:.22em}
+
+  /* Sections */
+  .hero{padding:54px 0 44px;gap:32px}
+  .section,.pro-section{padding:48px 0}
+  .pro-hero{padding:54px 0 36px;gap:28px}
+  .section-head{display:block}
+  .badge{margin-bottom:18px}
+
+  /* Buttons */
+  .hero-actions{gap:10px;margin-top:24px}
+  .hero-actions .btn{width:100%;max-width:360px}
+  .cta,.pro-cta,.pro-panel{padding:28px;border-radius:28px}
+
+  /* Grids */
+  .grid-3,.grid-4,.grid-2,.stats,
+  .platform,.pro-hero,.pro-grid-3,.pro-grid-4,
+  .featured-products,.product-detail-grid,.product-gallery{
+    grid-template-columns:1fr !important;
+  }
+  .product-mini-grid{grid-template-columns:1fr 1fr !important;gap:12px}
+
+  /* Product/card images */
+  .product{padding:20px}
+  .product-img{height:auto;min-height:150px}
+  .product-img img{height:auto;max-height:170px}
+  .featured-card img{height:150px}
+  .pro-product-card img{height:145px}
+  .category-thumb{height:135px}
+  .category-thumb img{height:125px}
+  .product-mini img{height:105px}
+
+  /* Galleries */
+  .gallery{grid-template-columns:1fr !important;gap:14px}
+  .gallery-main{min-height:260px;border-radius:26px;padding:14px}
+  .gallery-main img{max-height:250px}
+  .gallery-thumbs{grid-template-columns:1fr 1fr;gap:10px}
+  .gallery-thumbs div{min-height:120px;border-radius:18px;padding:10px}
+  .gallery-thumbs img{max-height:105px}
+
+  /* Platform phone */
+  .phone{width:100%;max-width:315px;height:auto;min-height:520px}
+  .mapbox{height:220px}
+
+  /* Tables and forms */
+  .spec-table{display:block;overflow-x:auto;white-space:nowrap}
+  .spec-table td{padding:12px 14px}
+  .pro-form input,.pro-form textarea,.pro-form select{
+    font-size:16px;
+    padding:14px 15px;
+  }
+
+  /* Footer */
+  .footer{padding:34px 0}
+  .footer-grid{grid-template-columns:1fr !important;gap:20px}
+
+  /* Floating WhatsApp */
+  .whatsapp-float{
+    right:14px;
+    bottom:14px;
+    width:54px;
+    height:54px;
+  }
+  .whatsapp-float svg{width:30px;height:30px}
+}
+
+@media (max-width: 520px){
+  .container{padding-left:14px;padding-right:14px}
+  .nav{padding:10px 0}
+  .logo{font-size:18px;letter-spacing:.14em}
+  .logo-sub{font-size:8px;letter-spacing:.16em}
+  .brand img{width:30px;height:30px}
+
+  .actions .btn.primary{
+    padding:8px 10px;
+    font-size:11px;
+  }
+  .lang-switch a{font-size:10px;padding:6px 7px}
+
+  h1{font-size:34px}
+  h2{font-size:26px}
+  .lead{font-size:15px}
+  .hero{padding:42px 0 34px}
+  .section,.pro-section{padding:40px 0}
+  .pro-hero{padding:42px 0 30px}
+
+  .hero-media,.hero-media img{height:300px;min-height:300px}
+  .hero-media-content{left:18px;right:18px;bottom:18px}
+  .hero-media-content strong{font-size:22px}
+
+  .stats{gap:10px}
+  .stat{padding:18px}
+  .stat b{font-size:28px}
+
+  .product-mini-grid{grid-template-columns:1fr !important}
+  .gallery-thumbs{grid-template-columns:1fr}
+  .featured-card,.pro-product-card,.product{padding:18px}
+  .cta,.pro-cta,.pro-panel{padding:24px;border-radius:24px}
+
+  .pro-contact-line{
+    word-break:break-word;
+    line-height:1.65;
+  }
+}
+
+@media (max-width: 380px){
+  .logo{font-size:16px}
+  h1{font-size:30px}
+  h2{font-size:23px}
+  .actions .btn.primary{display:none}
+  .menu{font-size:12px;gap:14px}
+}
