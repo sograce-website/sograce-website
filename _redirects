@@ -1,4 +1,4 @@
-# SOGRACE forced clean URL rules
+# SOGRACE clean URL redirects
 /contact.html  /contact.html   200!
 /contact       /contact.html   200!
 /about         /about.html     200!
