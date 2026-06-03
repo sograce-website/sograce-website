@@ -1,0 +1,25 @@
+SOGRACE SEO V2.5 Upgrade
+
+Modified:
+- index.html SEO title, meta description, H1, platform section, OEM/ODM homepage section, footer links and WhatsApp.
+- css/style.css added SEO helper styles.
+- sitemap.xml regenerated with manufacturer, OEM, product, blog and Spanish URLs.
+- robots.txt updated with sitemap.
+
+Added SEO landing pages:
+- gps-watch-manufacturer.html
+- gps-tracker-manufacturer.html
+- oem-gps-watch.html
+- oem-gps-tracker.html
+- private-label-gps-watch.html
+
+Added blog articles:
+- blog/best-gps-watch-for-seniors.html
+- blog/gps-watch-vs-sos-button.html
+- blog/gps-tracking-platform-for-oem.html
+- blog/how-gps-watches-improve-elderly-safety.html
+
+After deployment:
+1. Submit sitemap.xml in Google Search Console.
+2. Request indexing for new manufacturer/OEM pages.
+3. Check mobile display and inquiry form.

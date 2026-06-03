@@ -318,3 +318,6 @@ h1{font-size:68px;line-height:1.02;margin:0;font-weight:950;letter-spacing:-.045
   .actions .btn.primary{display:none}
   .menu{font-size:12px;gap:14px}
 }
+
+/* SEO V2.5 enhancements */
+.footer a{color:inherit;text-decoration:none}.footer a:hover{color:#58a6ff}.seo-content{max-width:980px}.seo-content h2{margin-top:34px}.seo-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:20px}.seo-box{padding:20px;border:1px solid rgba(88,166,255,.22);border-radius:18px;background:rgba(255,255,255,.04)}.seo-box h3{margin:0 0 10px}.faq-item{padding:18px;border-bottom:1px solid rgba(255,255,255,.08)}
