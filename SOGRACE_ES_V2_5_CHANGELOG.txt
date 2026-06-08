@@ -1,0 +1,22 @@
+SOGRACE Website ES V2.5 Professional
+
+Updated Spanish version based on uploaded current source.
+
+Added/updated:
+- /es/ professional Spanish homepage
+- /es/products.html Spanish SEO product catalog
+- /es/about.html
+- /es/contact.html
+- /es/platform/
+- /es/app/
+- Spanish SEO title/meta descriptions
+- hreflang/canonical tags for Spanish pages
+- Spanish navigation and footer
+- Sitemap entries for ES pages
+- WhatsApp and contact links preserved
+
+Focus products:
+- G50 Health GPS Watch
+- N51 Smart GPS Cane
+- H50 SOS GPS Pendant
+- Globe GPS Tracker Platform
