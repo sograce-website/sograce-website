@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.sograce.cn/sitemap.xml
+
+Sitemap: https://sograce.cn/sitemap.xml
