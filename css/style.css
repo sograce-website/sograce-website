@@ -19,7 +19,7 @@ h1{font-size:68px;line-height:1.02;margin:0;font-weight:950;letter-spacing:-.045
 
 .whatsapp-float{position:fixed;right:22px;bottom:22px;z-index:50;width:62px;height:62px;border-radius:999px;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 16px 45px rgba(37,211,102,.35);border:2px solid rgba(255,255,255,.75)}
 .whatsapp-float svg{width:34px;height:34px;fill:#fff}
-.lang-switch{display:flex;gap:8px;align-items:center}
+.lang-switch{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .lang-switch a{font-weight:800;font-size:13px;padding:8px 10px;border-radius:10px;border:1px solid rgba(255,255,255,.12);color:#cbd5e1}
 .lang-switch a.active{background:#1769ff;color:#fff;border-color:#1769ff}
 .category-badge{display:inline-flex;padding:8px 12px;border-radius:999px;background:rgba(37,211,102,.12);border:1px solid rgba(37,211,102,.35);color:#86efac;font-weight:800;font-size:13px}
