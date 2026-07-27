@@ -22,10 +22,10 @@ h1{font-size:68px;line-height:1.02;margin:0;font-weight:950;letter-spacing:-.045
 .lang-switch{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .lang-switch a{font-weight:800;font-size:13px;padding:8px 10px;border-radius:10px;border:1px solid rgba(255,255,255,.12);color:#cbd5e1}
 .lang-switch a.active{background:#1769ff;color:#fff;border-color:#1769ff}
-.lang-select{position:relative;flex:0 0 auto;min-width:148px;overflow:hidden}
+.lang-select{position:relative;flex:0 0 auto;min-width:148px;overflow:visible}
 .lang-select:before{content:none !important;display:none !important}
-.lang-select select{position:relative;z-index:1;width:148px !important;min-width:148px !important;max-width:148px !important;height:36px !important;display:block;overflow:hidden;white-space:nowrap !important;text-overflow:clip;padding-right:34px !important;line-height:18px !important}
 .lang-select:after{right:12px !important;z-index:2}
+.lang-select-menu a.active{display:none}
 .category-badge{display:inline-flex;padding:8px 12px;border-radius:999px;background:rgba(37,211,102,.12);border:1px solid rgba(37,211,102,.35);color:#86efac;font-weight:800;font-size:13px}
 .gallery{display:grid;grid-template-columns:1.2fr .8fr;gap:18px;margin-top:28px}
 .gallery-main{border-radius:34px;background:#fff;padding:22px;display:flex;align-items:center;justify-content:center;min-height:440px}
@@ -170,7 +170,6 @@ h1{font-size:68px;line-height:1.02;margin:0;font-weight:950;letter-spacing:-.045
   .actions .btn.ghost{display:none}
   .actions .btn{padding:11px 16px}
   .lang-select{min-width:148px}
-  .lang-select select{width:148px !important;min-width:148px !important;max-width:148px !important}
 }
 
 @media (max-width: 1200px) and (min-width: 901px){
@@ -179,7 +178,6 @@ h1{font-size:68px;line-height:1.02;margin:0;font-weight:950;letter-spacing:-.045
   .actions .btn.ghost{display:none}
   .actions .btn.primary{padding:10px 14px;white-space:nowrap}
   .lang-select{flex:0 0 auto;min-width:142px}
-  .lang-select select{width:142px !important;min-width:142px !important;max-width:142px !important}
 }
 
 @media (max-width: 1100px) and (min-width: 901px){
@@ -188,14 +186,12 @@ h1{font-size:68px;line-height:1.02;margin:0;font-weight:950;letter-spacing:-.045
   .actions{gap:6px}
   .actions .btn.primary{padding:9px 12px;font-size:12px}
   .lang-select{min-width:136px}
-  .lang-select select{width:136px !important;min-width:136px !important;max-width:136px !important}
 }
 
 @media (max-width: 1024px) and (min-width: 901px){
   .nav{gap:10px}
   .menu{gap:8px;font-size:12px}
   .lang-select{min-width:136px}
-  .lang-select select{width:136px !important;min-width:136px !important;max-width:136px !important}
 }
 
 @media (max-width: 900px){
