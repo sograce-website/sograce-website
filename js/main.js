@@ -22,20 +22,21 @@ document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',
 
   const languages = [
     {code:'en',label:'English'},
-    {code:'es',label:'Español'},
-    {code:'pt',label:'Português'},
-    {code:'ru',label:'Русский'},
-    {code:'fr',label:'Français'}
+    {code:'es',label:'Espa\u00f1ol'},
+    {code:'pt',label:'Portugu\u00eas'},
+    {code:'ru',label:'\u0420\u0443\u0441\u0441\u043a\u0438\u0439'},
+    {code:'fr',label:'Fran\u00e7ais'},
+    {code:'ar',label:'\u0627\u0644\u0639\u0631\u0628\u064a\u0629'}
   ];
 
   const routes = {
-    home:{en:'/',es:'/es/',pt:'/pt/',ru:'/ru/',fr:'/fr/'},
-    products:{en:'/products.html',es:'/es/products.html',pt:'/pt/products.html',ru:'/ru/products.html',fr:'/fr/products.html'},
-    platform:{en:'/platform/',es:'/es/platform/',pt:'/pt/platform/',ru:'/ru/platform/',fr:'/fr/platform.html'},
-    app:{en:'/app/',es:'/es/app/',pt:'/pt/app/',ru:'/ru/app/',fr:'/fr/app.html'},
-    oem:{en:'/oem-gps-tracker.html',es:'/es/',pt:'/pt/oem-gps-tracker.html',ru:'/ru/oem-gps-tracker.html',fr:'/fr/oem.html'},
-    contact:{en:'/contact.html',es:'/es/contact.html',pt:'/pt/contact.html',ru:'/ru/contact.html',fr:'/fr/contact.html'},
-    blog:{en:'/blog/',es:'/es/',pt:'/pt/blog/',ru:'/ru/blog/',fr:'/fr/blog/'}
+    home:{en:'/',es:'/es/',pt:'/pt/',ru:'/ru/',fr:'/fr/',ar:'/ar/'},
+    products:{en:'/products.html',es:'/es/products.html',pt:'/pt/products.html',ru:'/ru/products.html',fr:'/fr/products.html',ar:'/ar/products.html'},
+    platform:{en:'/platform/',es:'/es/platform/',pt:'/pt/platform/',ru:'/ru/platform/',fr:'/fr/platform.html',ar:'/ar/platform/'},
+    app:{en:'/app/',es:'/es/app/',pt:'/pt/app/',ru:'/ru/app/',fr:'/fr/app.html',ar:'/ar/app/'},
+    oem:{en:'/oem-gps-tracker.html',es:'/es/',pt:'/pt/oem-gps-tracker.html',ru:'/ru/oem-gps-tracker.html',fr:'/fr/oem.html',ar:'/ar/oem-gps-tracker.html'},
+    contact:{en:'/contact.html',es:'/es/contact.html',pt:'/pt/contact.html',ru:'/ru/contact.html',fr:'/fr/contact.html',ar:'/ar/contact.html'},
+    blog:{en:'/blog/',es:'/es/',pt:'/pt/blog/',ru:'/ru/blog/',fr:'/fr/blog/',ar:'/ar/blog/'}
   };
 
   function currentLanguage(path) {
@@ -43,6 +44,7 @@ document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',
     if (path === '/pt' || path.startsWith('/pt/')) return 'pt';
     if (path === '/ru' || path.startsWith('/ru/')) return 'ru';
     if (path === '/fr' || path.startsWith('/fr/')) return 'fr';
+    if (path === '/ar' || path.startsWith('/ar/')) return 'ar';
     return 'en';
   }
 
